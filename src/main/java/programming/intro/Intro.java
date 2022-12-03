@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Intro {
     public static void main(String [] args){
         System.out.println("Please enter your name:");
-        Scanner scanner = new Scanner(System.in);
-        String name = scanner.nextLine();
+        Scanner scannerName = new Scanner(System.in);
+        String name = scannerName.nextLine();
         System.out.println("Please enter your favorite hobby:");
-        Scanner scanner2 = new Scanner(System.in);
-        String hobby = scanner2.nextLine();
+        Scanner scannerHobby = new Scanner(System.in);
+        String hobby = scannerHobby.nextLine();
         System.out.println("The " + hobby + " is favorite hobby on " + name);
     }
 }
