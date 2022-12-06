@@ -2,7 +2,7 @@ package programming.intro;
 
 import java.util.Scanner;
 
-public class Intro {
+public class HomeworkHobby {
     public static void main(String [] args){
         System.out.println("Please enter your name:");
         Scanner scannerName = new Scanner(System.in);
